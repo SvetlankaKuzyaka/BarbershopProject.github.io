@@ -10,15 +10,14 @@ var mapClose = mapPopup.querySelector(".modal-content-close");
 var mapLink = document.querySelector(".js-open-map");
 var mapOverlay = document.querySelector(".modal-overlay");
 var gallery = document.querySelector(".gallery");
-var buttons =
+/*var buttons =
 'button class="btn gallery-prev" type="button">Назад</button>'+'<button class="btn gallery-next" type="button">Вперед</button>';
 var prev = document.querySelector(".gallery-prev");
-
 /*Прогрессивное улучшение: если JS не сломан - фотогалерея имеет другой вид*/
-gallery.classList.add("gallery-live");
+/*gallery.classList.add("gallery-live");
 /*Добавление кнопок. Но есть другой, более верный способ*/
-gallery.innerHTML = gallery.innerHTML + buttons;
-prev.setAttribute('disabled','disabled');
+/*gallery.innerHTML = gallery.innerHTML + buttons;
+prev.setAttribute('disabled','disabled');*/
 
 link.addEventListener("click", function(event){
 	event.preventDefault();

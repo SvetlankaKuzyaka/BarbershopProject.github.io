@@ -11,8 +11,7 @@ var mapLink = document.querySelector(".js-open-map");
 var mapOverlay = document.querySelector(".modal-overlay");
 var gallery = document.querySelector(".gallery");
 var buttons =
-'button class="btn gallery-prev" type="button">Назад</button>' +
-'<button class="btn gallery-next" type="button">Вперед</button>';
+'button class="btn gallery-prev" type="button">Назад</button>'+'<button class="btn gallery-next" type="button">Вперед</button>';
 var prev = document.querySelector(".gallery-prev");
 
 /*Прогрессивное улучшение: если JS не сломан - фотогалерея имеет другой вид*/

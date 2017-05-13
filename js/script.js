@@ -1,4 +1,4 @@
-var link = document.querySelector(".login");
+/*var link = document.querySelector(".login");
 var popup = document.querySelector(".modal-content");
 var close = popup.querySelector(".modal-content-close");
 var login = popup.querySelector("[name=login]");
@@ -9,13 +9,13 @@ var mapPopup = document.querySelector(".modal-content-map");
 var mapClose = mapPopup.querySelector(".modal-content-close");
 var mapLink = document.querySelector(".js-open-map");
 var mapOverlay = document.querySelector(".modal-overlay");
-var gallery = document.querySelector(".gallery");
+var gallery = document.querySelector(".gallery");*/
 
 /*Прогрессивное улучшение: если JS не сломан - фотогалерея имеет другой вид*/
-gallery.classList.add("gallery-live");
+/*gallery.classList.add("gallery-live");
 
 /*Инициализация кнопок. Но есть другой, более верный способ*/
-var buttons =
+/*var buttons =
 '<button class="btn gallery-prev" type="button">Назад</button>'+'<button class="btn gallery-next" type="button">Вперед</button>';
 gallery.innerHTML = gallery.innerHTML + buttons;
 var prev = document.querySelector(".gallery-prev");
